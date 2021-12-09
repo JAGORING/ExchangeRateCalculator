@@ -1,0 +1,98 @@
+:root {
+  --color-blue: #5fbaa7;
+	--color-gray: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+body {
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	height: 100vh;
+}
+.container-background {
+	margin: 0 auto;
+	background-color: rgba(255, 250, 225, 0.514);
+	border-radius: 10px;
+	width: 35vw;
+	height: 85vh;
+}
+.logo {
+	width: 150px;
+	height: 150px;
+	display: block;
+	padding-top: 30px;
+	margin: 180px auto 0;
+}
+.logo img{	
+	width: 100%;
+	height: 100%;
+}
+.Exchange-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+
+}
+.Exchange-container .heading{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.Exchange-container .heading h1{
+	color: var(--color-blue);
+	font-size: 33px;
+	margin-bottom: 30px;
+}
+.Exchange-container .currency-container {
+	width: 380px;
+}
+.currency-container .currency {
+	margin: 20px auto 25px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	height: 60px;
+}
+.currency-container .currency input {
+	text-align: right;
+	font-size: 30px;
+	flex-grow: 1;
+}
+.currency-container .currency select {
+	font-size: 16px;
+	height: 40px;
+	border: 1px solid #dedede;
+	padding: 0 6px;
+}
+.currency-container .currency input, 
+.currency-container .currency select, 
+.currency-container .currency input:active,
+.currency-container .currency input:focus{
+	background-color: var(--color-gray);
+	outline:none;
+}
+.currency-container .currency input, 
+.currency-container .currency input:active,
+.currency-container .currency input:focus{
+	border:none;
+}
+.Exchange-container .swap-container{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+}
+.Exchange-container .swap-container .btn {
+	background-color: var(--color-blue);
+	color: white;
+	padding: 10px;
+	border-style: none;
+	border-radius: 5px;
+	margin-left: -20px;
+}
+.Exchange-container .swap-container .rate {
+	color: var(--color-blue)
+}
