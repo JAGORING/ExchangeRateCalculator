@@ -10,4 +10,4 @@
 2. 위의 입력 통화를 기준으로 환율을 계산하여 나타내주고, SWAP 버튼을 통해서 환율을 바꿀 수 있음
 3. toFixed() 메서드를 이용하여 둘째 소수점 자리까지만 표현함
 
-노션 정리 : https://www.notion.so/Exchange-Rate-Calculator-f93aa0cc3bfa498682204244367a944d
+노션 정리 : https://sunrise-soursop-181.notion.site/Exchange-Rate-Calculator-f93aa0cc3bfa498682204244367a944d
